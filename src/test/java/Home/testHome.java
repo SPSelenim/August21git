@@ -41,7 +41,7 @@ driver.manage().window().maximize();
 		try {
 	POMHome home=new POMHome(driver);
 		home.clickQA();
-		System.out.println( "Clicked on QA");
+		System.out.println( "myFR: Clicked on QA");
 		}
 
 		catch (Exception e) {
