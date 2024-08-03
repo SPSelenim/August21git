@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class POMHome {
-
+//all public variable
 	public WebDriver driver = null;
 	private String myFirstName = "fname";
 	private String myLastName = "lname";
