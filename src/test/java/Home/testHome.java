@@ -17,7 +17,7 @@ public class testHome {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("file:///D:/SeleniumAutomation/05DemoApps/demo.html");
-		System.out.println("LAUNCHED");
+		System.out.println("myFR: LAUNCHED");
 driver.manage().window().maximize();
 	}
 
@@ -25,10 +25,10 @@ driver.manage().window().maximize();
 	public void f() {
 		try {
 	POMHome home=new POMHome(driver);
-			home.sendFirstName("xxx");
-			home.sendFirstName("xxx1");
-			home.sendLastName("ppp1");
-			System.out.println( "Cleared / Entered and entered");
+			home.sendFirstName("myFR: xxx");
+			home.sendFirstName("myFR: xxx1");
+			home.sendLastName("myFR: ppp1");
+			System.out.println( "myFR: Cleared / Entered and entered");
 		}
 
 		catch (Exception e) {
