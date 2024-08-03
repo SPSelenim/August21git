@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class POMHome {
 //all public variables
+	
 	public WebDriver driver = null;
 	private String myFirstName = "fname";
 	private String myLastName = "lname";
@@ -13,6 +14,7 @@ public class POMHome {
 
 	public POMHome(WebDriver driver) {
 		this.driver = driver;
+	System.out.println("INTITED WebDRIVER **************************");
 	}
 
 	private WebElement getFirstName() {
